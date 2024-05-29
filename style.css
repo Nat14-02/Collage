@@ -1,0 +1,41 @@
+#iniciar
+{
+    width: 40%;
+    background-color: aqua;
+    color: blue;
+    border-radius: 20px;
+} 
+#cam
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo
+{
+    width: 400px;
+    border-radius: 200px;
+}
+#voz
+{
+    width: 300px;
+}
+#selfie
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+body{
+background-color: lightblue;
+}
+.copy_right_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+img:hover{
+    border-radius:140px;
+    box-shadow: 0 6px 8px  0 rgba (2, 2, 2, 0.2);
+}
