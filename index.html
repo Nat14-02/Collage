@@ -7,7 +7,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link href="style.css" rel="stylesheet">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
 </head>
  
 <body>
@@ -24,9 +24,9 @@
         <div class="form-group">
             <h3>Di "toma selfie" para tomar selfie y hacer un collage</h3>
         
-
+d
         <p>Haz clic en el botón Iniciar</p>
-<button onclick="iniciar()" id="iniciar">Inicia</button>
+<button onclick="start()" id="iniciar">Inicia</button>
 <br>
 <br>
         <label>Tu cámara: </label>
@@ -34,15 +34,15 @@
         <br>
 
         <label>Tu selfie aparecerá aquí: </label>
-        <div  img_id="selfie1"></div>
-        <div img_id="selfie2"></div>
-        <div img_id="selfie3"></div>
+        <div id="result1"></div>
+        <div id="result2"></div>
+        <div id="result3"></div>
     </center>
     </div>
 
-    <script src="main.js"></script>
     <div class="copy_roght_footer">
         Developed by - Carmen
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
